@@ -22,6 +22,7 @@ namespace Tyuiu.MasalimovTR.Sprint5.Task0.V25
             Console.WriteLine("Результат:");
             int x = 3;
             string res = ds.SaveToFileTextData(x);
+            Console.ReadKey();
         }
     }
 }

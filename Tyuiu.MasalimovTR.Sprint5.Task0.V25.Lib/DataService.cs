@@ -1,5 +1,6 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint5;
 using System.IO;
+using System.Diagnostics;
 
 namespace Tyuiu.MasalimovTR.Sprint5.Task0.V25.Lib
 {
