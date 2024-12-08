@@ -6,6 +6,7 @@ namespace Tyuiu.MasalimovTR.Sprint5.Task3.V18.Lib
     {
         public string SaveToFileTextData(int x)
         {
+            x = 2;
             string path = Path.Combine(new string[] { Path.GetTempPath(), "OutPutFileTask3.bin" });
 
             using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate)))
