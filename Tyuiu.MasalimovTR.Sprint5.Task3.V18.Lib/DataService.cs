@@ -8,7 +8,11 @@ namespace Tyuiu.MasalimovTR.Sprint5.Task3.V18.Lib
         {
             string path = Path.Combine(new string[] { Path.GetTempPath(), "OutPutFileTask3.bin" });
 
-            File.WriteAllText(path, "SOF6FK7HQkA=");
+            using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate)))
+            {
+                writer.Write(BitConverter.GetBytes(x));
+            }
+
             return path;
         }
     }
