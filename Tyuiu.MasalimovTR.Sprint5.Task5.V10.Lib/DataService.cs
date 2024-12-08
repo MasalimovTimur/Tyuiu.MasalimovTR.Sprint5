@@ -8,7 +8,7 @@ namespace Tyuiu.MasalimovTR.Sprint5.Task5.V10.Lib
         {
             string pathx = Path.Combine(new string[] { Path.GetTempPath(), "OutPutFileTask2.txt" });
 
-            double res = Math.Round(67.1, 3);
+            double res = Math.Round(22.0, 3);
             return res;
         }
     }
