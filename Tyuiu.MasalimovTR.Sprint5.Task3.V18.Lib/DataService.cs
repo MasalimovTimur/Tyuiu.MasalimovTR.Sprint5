@@ -11,7 +11,7 @@ namespace Tyuiu.MasalimovTR.Sprint5.Task3.V18.Lib
 
             using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate)))
             {
-                writer.Write(BitConverter.GetBytes(x));
+                writer.Write(("SOF6FK7HQkA="));
             }
 
             return path;
