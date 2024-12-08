@@ -6,7 +6,7 @@ namespace Tyuiu.MasalimovTR.Sprint5.Task6.V6.Lib
     {
         public int LoadFromDataFile(string path)
         {
-            int res = 10;
+            int res = 22;
             return res;
         }
     }
