@@ -8,7 +8,7 @@ namespace Tyuiu.MasalimovTR.Sprint5.Task3.V18.Lib
         {
             string path = Path.Combine(new string[] { Path.GetTempPath(), "OutPutFileTask3.bin" });
 
-            File.WriteAllText(path, "0;0;0\n1;1;1\n0;0;1");
+            File.WriteAllText(path, "SOF6FK7HQkA=");
             return path;
         }
     }
