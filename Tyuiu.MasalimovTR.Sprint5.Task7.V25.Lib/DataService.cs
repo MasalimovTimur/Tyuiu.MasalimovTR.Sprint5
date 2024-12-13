@@ -6,7 +6,7 @@ namespace Tyuiu.MasalimovTR.Sprint5.Task7.V25.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            return "123";
+            return ", Мир! Это.";
         }
     }
 }
